@@ -1,3 +1,3 @@
 # CSSMemSlider (modify)
 
-[Deploy](https://airmay-hub.github.io/CSSMemSlider-modify-/cssMemSlider/index.html)
+[Deploy](https://airmay-hub.github.io/CSSMemSlider-modify-/CSSMemSlider/index.html)
