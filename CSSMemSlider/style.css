@@ -221,6 +221,20 @@ body {
   color: #FA233E;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 30px 0;
+  width: calc(100vw - 30%);
+}
+
+.footer-link {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  text-transform: capitalize;
+  color: #88F7E2;
+}
+
 @keyframes flip {
 
   from {
@@ -258,6 +272,10 @@ body {
     height: 1.2em;
     border: 9px solid transparent;
   }
+
+  .footer-link {
+    font-size: 1.5em;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -289,6 +307,10 @@ body {
     width: 1em;
     height: 1em;
     border: 8px solid transparent;
+  }
+
+  .footer-link {
+    font-size: 1.2em;
   }
 }
 
@@ -358,6 +380,10 @@ body {
     padding-bottom: 5px;
     font-size: 0.8em;
   }
+
+  .footer-link {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 485px) {
@@ -392,5 +418,9 @@ body {
   .text-wrapper span {
     padding-bottom: 5px;
     font-size: 0.5em;
+  }
+
+  .footer-link {
+    font-size: 0.6em;
   }
 }
