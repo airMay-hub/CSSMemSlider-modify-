@@ -21,6 +21,35 @@ body {
   gap: 30px;
 }
 
+.header {
+  width: calc(100vw - 30%);
+  padding: 35px 0 10px 0;
+}
+
+.logo span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+}
+
+.green-logo {
+  color: #44D492;
+}
+
+.yellow-logo {
+  color: #F5EB67;
+}
+
+.orange-logo {
+  color: #FFA15C;
+}
+
+.from {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  color: #FA233E;
+}
+
+
 .radio {
   display: none;
 }
@@ -233,6 +262,14 @@ body {
 
 @media (max-width: 1024px) {
 
+  .logo span {
+    font-size: 2.3em;
+  }
+
+  .from {
+    font-size: 1em;
+  }
+
   .text-wrapper span {
     padding-bottom: 5px;
     font-size: 1em;
@@ -256,6 +293,14 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .logo span {
+    font-size: 2em;
+  }
+
+  .from {
+    font-size: 0.8em;
+  }
 
   .main {
     gap: 15px;
@@ -334,7 +379,15 @@ body {
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 425px) {
+
+  .logo span {
+    font-size: 1.5em;
+  }
+
+  .from {
+    font-size: 0.7em;
+  }
 
   .text-wrapper span {
     padding-bottom: 5px;
